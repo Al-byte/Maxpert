@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="./resources/css/assets/favicon.png">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
+  <title>Maxpert Files</title>
+</head>
+<body>
+  <div class="container card my-3 py-5">
+    <div class="row justify-content-center d-flex">
+      <div class="col-12 my-3">
+        <h1 class="text-center">The Trials of Emberfall: Rite of the Rising</h1>
+      </div>
+
+      <div class="col-lg-10">
+        <h2 class="my-3">The Sleeping Lake</h2>
+        <p>A perfectly still lake stretched before him, with stepping stones scattered across its surface. The instructions etched on the map read: “Cross without waking the water.” Maximus tested each stone with his weight, moving slowly. When one wobbled, he paused, waited, then adjusted to keep the water unbroken. Twice, the lake rippled — and a massive shape stirred beneath. Maximus froze. The water stilled. Step by careful step, Maximus reached the far shore safely.</p>
+      </div>
+      <div class="col-12 col-lg-10 my-3">
+        <hr>
+      </div>
+      <div class="col-lg-10 bg_img" id="chap5_bg">
+        <!-- Button trigger modal -->
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>        
+        <div class="col-12 text-center">
+          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#lake">
+            <i class="fa fa-bars"></i>
+          </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="lake" tabindex="-1" role="dialog" aria-labelledby="lakeTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-fullscreen" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title hide" id="theLake">The lake of Echoes</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <img class="embed-responsive-item" src="./resources/css/assets/chapter_5/cipher.png">
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <form class="col-10 col-md-6 mx-auto">
+            <div class="row py-4 sign-in-card">
+                <div class="col-md-8 mx-auto">
+                    <h6 class="text-center hide">Solution</h6>                    
+                    <input type="text" placeholder="Solution" name="pswrd" class="w-100 my-3">
+                </div>
+                <div class="col-md-12 text-center">
+                  <input type="submit" onclick="return puzzleFive(this.form)" value="Submit" class="btn btn-success mb-3"/>
+                </div>
+              </div>
+            </div>
+          </form>             
+      </div>
+
+    </div>
+  </div>
+
+
+  
+
+</body>
+</html>
