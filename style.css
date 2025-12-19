@@ -36,7 +36,7 @@ p, .orbitron, .btn {
 }
 
 .bold {
-  font-weight: bolder;
+  font-weight: bolder !important;
 }
 
 .bg_img {
