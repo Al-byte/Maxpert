@@ -24,7 +24,7 @@
         <h1 class="text-center mb-3">The Trials of Emberfall: Rite of the Rising</h1>
       </div>
     <div class="row d-flex justify-content-center my-3">
-      <div class="col-12 col-lg-3">
+      <div class="col-12 col-lg-3 mb-3">
         <div class="embed-responsive embed-responsive-1by1">
           <img class="embed-responsive-item" src="./resources/css/assets/chapter_0/img_1.png">
         </div>
@@ -33,13 +33,13 @@
         <p>In their dystopian district, leaders weren’t elected — they were proven. For generations, the future Guardians completed the Rite of the Rising, a journey of seven trials spread throughout Emberfall.</p>
       </div>
     </div>
-    <div class="row d-flex justify-content-center my-3">
+    <div class="row d-flex justify-content-center my-3 flex-wrap-reverse">
       <div class="col-12 col-lg-6">
         <p>Only those who reached the final treasure and returned with it were trusted with guiding the people through famine, storms, and the dangers outside the barricades.
           And today, it was Maximus’ turn. 
         </p>    
       </div>
-      <div class="col-12 col-lg-3">
+      <div class="col-12 col-lg-3 mb-3">
         <div class="embed-responsive embed-responsive-1by1">
           <img class="embed-responsive-item" src="./resources/css/assets/chapter_0/img_2.png">
         </div> 
@@ -47,7 +47,7 @@
     </div>
 
     <div class="row d-flex justify-content-center my-3">
-      <div class="col-12 col-lg-3">
+      <div class="col-12 col-lg-3 mb-3">
         <div class="embed-responsive embed-responsive-1by1">
           <img class="embed-responsive-item" src="./resources/css/assets/chapter_0/img_3.png">
         </div>      
@@ -57,11 +57,11 @@
         Maximus nodded. “I’ll return, Dad. And I’ll make you proud.”</p>        
       </div>  
     </div>
-    <div class="row d-flex justify-content-center my-3">
+    <div class="row d-flex justify-content-center my-3 flex-wrap-reverse">
       <div class="col-12 col-lg-6">
         <p>Sixteen-year-old Maximus stood at the entrance to Emberfall Forest, the ancient wood that no one entered unless they were ready to accept the greatest responsibility their society could offer. With his father’s map, a small satchel, and a heart full of determination, Maximus stepped into the forest.</p>
       </div>
-      <div class="col-12 col-lg-3">
+      <div class="col-12 col-lg-3 mb-3">
         <div class="embed-responsive embed-responsive-1by1">
           <img class="embed-responsive-item" src="./resources/css/assets/chapter_0/img_4.png">
         </div>
@@ -70,37 +70,42 @@
 
       <div class="col-lg-10">
         <div class="row d-flex justify-content-center">
-        <form class="col-10 col-md-6 mx-auto" onsubmit="return puzzleZero(this)">
-          <div class="row py-4 sign-in-card">
-            <div class="col-md-12 mx-auto">
-              <p class="text-center">Are you ready to embark on your quest?</p>
+          <form class="col-10 col-md-6 mx-auto" onsubmit="return puzzleZero(this)">
+            <div class="row py-4 sign-in-card">
+              <div class="col-md-12 mx-auto">
 
-              <div class="row d-flex justify-content-center">
-                <div class="col-2 text-center my-3">
-                  <label>
-                    <input type="radio" name="opt" value="true">
-                    <br><span class="orbitron">Yes</span>
-                  </label>
-                </div>
+                <p class="text-center">Are you ready to embark on your quest?</p>
 
-                <div class="col-2 text-center my-3">
-                  <label>
-                    <input type="radio" name="opt" value="false">
-                    <br><span class="orbitron">No</span>
-                  </label>
+                <!-- Bootstrap 4 Alert -->
+                <div id="puzzleAlert" class="alert d-none text-center" role="alert"></div>
+
+                <div class="row d-flex justify-content-center">
+                  <div class="col-2 text-center my-3">
+                    <label>
+                      <input type="radio" name="opt" value="true">
+                      <br><span class="orbitron">Yes</span>
+                    </label>
+                  </div>
+
+                  <div class="col-2 text-center my-3">
+                    <label>
+                      <input type="radio" name="opt" value="false">
+                      <br><span class="orbitron">No</span>
+                    </label>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="col-md-12 text-center">
-              <input
-                type="submit"
-                value="Submit"
-                class="btn btn-success mb-3"
-              />
+              <div class="col-md-12 text-center">
+                <input
+                  type="submit"
+                  value="Submit"
+                  class="btn btn-primary mb-3"
+                />
+              </div>
             </div>
-          </div>
-        </form>
+          </form>
+
         </div>     
       </div>
     </div>
