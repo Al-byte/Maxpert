@@ -36,7 +36,10 @@ p, .orbitron, .btn {
 }
 
 .bold {
-  font-weight: bolder !important;
+  font-weight: 900 !important;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 18px;
 }
 
 .bg_img {
