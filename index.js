@@ -21,7 +21,7 @@ function puzzleZero(form) {
 
     setTimeout(function () {
       window.location.href = "./the_whispering_gate.html";
-    }, 4000);
+    }, 1500);
   } else {
     alertBox.className = "alert alert-danger text-center";
     alertBox.textContent = "Please return when you are ready for your quest.";
@@ -46,7 +46,7 @@ function puzzleOne(form) {
 
     setTimeout(function () {
       window.location.href = "./the_bridge_of_echoes.html";
-    }, 4000);
+    }, 1500);
   } else {
     alertBox.className = "alert alert-danger text-center";
     alertBox.textContent = "That is incorrect. Try again.";
@@ -71,7 +71,7 @@ function puzzleTwo(form) {
 
     setTimeout(function () {
       window.location.href = "./the_beast_of_roots.html";
-    }, 4000);
+    }, 1500);
   } else {
     alertBox.className = "alert alert-danger text-center";
     alertBox.textContent = "That is incorrect. Try again.";
@@ -98,7 +98,7 @@ function puzzleThree(form)
 
     setTimeout(function () {
       window.location.href = "./the_wall_of_memories.html";
-    }, 4000);
+    }, 1500);
   } else {
     alertBox.className = "alert alert-danger text-center";
     alertBox.textContent = "That is incorrect. Try again.";
@@ -124,7 +124,7 @@ function puzzleFour(form)
 
     setTimeout(function () {
       window.location.href = "./the_turning_maze.html";
-    }, 4000);
+    }, 1500);
   } else {
     alertBox.className = "alert alert-danger text-center";
     alertBox.textContent = "That is incorrect. Try again.";
@@ -150,7 +150,7 @@ function puzzleFive(form)
 
     setTimeout(function () {
       window.location.href = "./the_staircase_of_light.html";
-    }, 4000);
+    }, 1500);
   } else {
     alertBox.className = "alert alert-danger text-center";
     alertBox.textContent = "That is incorrect. Try again.";
@@ -176,7 +176,7 @@ function puzzleSix(form)
 
     setTimeout(function () {
       window.location.href = "./the_staircase_of_light.html";
-    }, 4000);
+    }, 1500);
   } else {
     alertBox.className = "alert alert-danger text-center";
     alertBox.textContent = "That is incorrect. Try again.";
@@ -202,7 +202,7 @@ function puzzleSeven(form)
 
     setTimeout(function () {
       window.location.href = "./the_final_chamber.html";
-    }, 4000);
+    }, 1500);
   } else {
     alertBox.className = "alert alert-danger text-center";
     alertBox.textContent = "That is incorrect. Try again.";
@@ -228,7 +228,7 @@ function puzzleEight(form)
 
     setTimeout(function () {
       window.location.href = "./the_culmination.html";
-    }, 4000);
+    }, 1500);
   } else {
     alertBox.className = "alert alert-danger text-center";
     alertBox.textContent = "That is incorrect. Try again.";
