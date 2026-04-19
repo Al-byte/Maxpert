@@ -8,17 +8,23 @@ hr {
 }
 
 h1 {
-    font-family: 'dystopian_future', sans-serif;
+    font-family: 'trajan_pro_bold', sans-serif;
 }
 
 h2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    font-family: 'trajan_pro_bold'
 }
 
-p, .orbitron, .btn {
-  font-family: 'orbitron';
+p, .trajan_pro, .btn {
+  font-family: 'trajan_pro';
   font-size: 16px;
   line-height: 2;
+}
+
+.cipher {
+  font-family: 'Isaac';
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .norse {
@@ -52,41 +58,73 @@ p, .orbitron, .btn {
 
 }
 
-#chap1_bg {
-  background-image: url('./resources/css/assets/chapter_1/puzzle.png');
+#session1_bg {
+  background-image: url('./resources/css/assets/session_1/poster.png');
 }
 
-#chap2_bg {
-  background-image: url('./resources/css/assets/chapter_2/puzzle.png');
+#session2_bg {
+  background-image: url('./resources/css/assets/session_2/poster.png');
 }
 
-#chap3_bg {
-  background-image: url('./resources/css/assets/chapter_3/puzzle.png');
+#session3_bg {
+  background-image: url('./resources/css/assets/session_3/poster.png');
 }
 
-#chap4_bg {
-  background-image: url('./resources/css/assets/chapter_4/puzzle.png');
+#session4_bg {
+  background-image: url('./resources/css/assets/session_4/poster.png');
 }
 
-#chap5_bg {
-  background-image: url('./resources/css/assets/chapter_5/puzzle.png');
+#session5_bg {
+  background-image: url('./resources/css/assets/session_5/poster.png');
 }
 
-#chap6_bg {
-  background-image: url('./resources/css/assets/chapter_6/puzzle.png');
+#session6_bg {
+  background-image: url('./resources/css/assets/session_6/poster.png');
 }
 
-#chap7_bg {
-  background-image: url('./resources/css/assets/chapter_7/puzzle.png');
+#session7_bg {
+  background-image: url('./resources/css/assets/session_7/poster.png');
 }
 
-#chap8_bg {
-  background-image: url('./resources/css/assets/chapter_8/puzzle.png');
+#session8_bg {
+  background-image: url('./resources/css/assets/session_8/poster.png');
 }
 
-#chap9_bg {
-  background-image: url('./resources/css/assets/chapter_9/puzzle.png');
+#session9_bg {
+  background-image: url('./resources/css/assets/session_9/poster.png');
 }
+
+#session10_bg {
+  background-image: url('./resources/css/assets/session_10/poster.png');
+}
+
+#session11_bg {
+  background-image: url('./resources/css/assets/session_11/poster.png');
+}
+
+#session12_bg {
+  background-image: url('./resources/css/assets/session_12/poster.png');
+}
+
+#session13_bg {
+  background-image: url('./resources/css/assets/session_13/poster.png');
+}
+
+#session14_bg {
+  background-image: url('./resources/css/assets/session_14/poster.png');
+}
+
+#session15_bg {
+  background-image: url('./resources/css/assets/session_15/poster.png');
+}
+
+#session16_bg {
+  background-image: url('./resources/css/assets/session_16/poster.png');
+}
+
+
+
+
 
 .modal-fullscreen {
   max-width: 100%;
@@ -108,21 +146,22 @@ p, .orbitron, .btn {
   background-color: #15181d;
   border-color: #444;
   color: #e6e6e6;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'trajan_pro', sans-serif;
   letter-spacing: 0.05em;
 }
 
 
+
 @font-face {
-  font-family: 'dystopian_future';
-  src: url('./resources/css/fonts/dystopian_future.ttf') format('truetype');
+  font-family: 'Isaac';
+  src: url('./resources/css/fonts/Isaac.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'orbitron';
-  src: url('./resources/css/fonts/Orbitron-VariableFont_wght.ttf') format('truetype');
+  font-family: 'trajan_pro';
+  src: url('./resources/css/fonts/TrajanPro-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
